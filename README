@@ -1,0 +1,20 @@
+  __ _     _
+ / _| |__ (_)_ __ ___
+| |_| '_ \| | '_ ` _ \
+|  _| |_) | | | | | | |
+|_| |_.__/|_|_| |_| |_|
+
+Overview
+========
+
+fbim is a tiny image viewer for the Linux (http://www.kernel.org/) framebuffer.
+It is based on stb_image and stb_image_resize (https://github.com/nothings/stb).
+
+Credits and Legal Information
+=============================
+
+fbim is free and unencumbered software released under the terms of the MIT
+license; see COPYING for the license text. For a list of its authors and
+contributors, see AUTHORS.
+
+The ASCII art logo at the top was made using FIGlet (http://www.figlet.org/).
