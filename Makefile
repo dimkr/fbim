@@ -14,7 +14,7 @@ INSTALL = install -v
 all: fbim
 
 fbim: fbim.c
-	$(CC) -o $@ $^ $(LDFLAGS) $(LIBS)
+	$(CC) -o $@ $^ $(CFLAGS) $(LDFLAGS) $(LIBS)
 
 install: all
 	$(INSTALL) -D -m 755 fbim $(DESTDIR)/$(BIN_DIR)/fbim

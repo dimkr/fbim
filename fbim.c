@@ -58,7 +58,6 @@ int main(int argc, char *argv[])
 {
 	struct fb_fix_screeninfo fix;
 	struct fb_var_screeninfo var;
-	float ratio;
 	size_t len;
 	size_t line_len;
 	const char *fb;
